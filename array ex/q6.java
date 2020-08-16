@@ -18,7 +18,7 @@ public class q6
 			arr[i] = inn.nextInt();
 		}
 		int six=0 , seven=0;
-		for(int i=1; i<arr.length; i++)
+		for(int i=0; i<arr.length-1; i++)
 		{
 			if(arr[i] == 6 && arr[i+1]== 6)
 			{
@@ -33,7 +33,7 @@ public class q6
 			}
 		}
 
-		System.out.println("Number of occurrences of two 6s" + six);
-		System.out.println("Number of occurrences of 6 followed by 7" + seven);
+		System.out.println("Number of occurrences of two 6s:  " + six);
+		System.out.println("Number of occurrences of 6 followed by 7:  " + seven);
 	}
 }
